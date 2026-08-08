@@ -1,0 +1,27 @@
+# Authentication and local identity
+auth.json
+installation_id
+
+# Runtime state, history, logs, and databases
+*.sqlite
+*.sqlite-*
+history.jsonl
+models_cache.json
+version.json
+sessions/
+shell_snapshots/
+logs/
+goals/
+
+# Caches, temporary files, and lock files
+cache/
+tmp/
+.tmp/
+mcp-oauth-locks/
+plugins/cache/
+plugins/.remote-plugin-install-staging/
+*.lock
+
+# Tool-managed metadata
+.sandbox_migration
+skills/.system/

@@ -1,0 +1,23 @@
+model = "gpt-5.6-luna"
+model_reasoning_effort = "medium"
+approval_policy = "untrusted"
+[projects."/home/temari1013"]
+trust_level = "trusted"
+
+[projects."/home/temari1013/mydev/wasabi"]
+trust_level = "trusted"
+
+[projects."/home/temari1013/mydev/itf_syspro"]
+trust_level = "trusted"
+
+[projects."/home/temari1013/mydev/minix3_bigendian_test/linux"]
+trust_level = "trusted"
+
+[projects."/home/temari1013/.codex"]
+trust_level = "trusted"
+
+[mcp_servers.openaiDeveloperDocs]
+url = "https://developers.openai.com/mcp"
+
+[tui.model_availability_nux]
+"gpt-5.6-sol" = 1
